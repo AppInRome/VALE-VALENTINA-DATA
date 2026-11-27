@@ -1,0 +1,239 @@
+VALE-KNOWLEDGE-1	25301	29292d5ec349bc417376d1c915308e50e387fc6086393e0154e65c9b4f21d136
+A	quanta gente abita	quanti residenti
+A	quanta gente vive	quanti residenti
+A	quante persone abitano	quanti residenti
+A	quante persone vivono	quanti residenti
+A	quante persone risiedono	quanti residenti
+A	quante persone ci vivono	quanti residenti
+A	quante persone ci abitano	quanti residenti
+A	quanti individui vivono	quanti residenti
+A	quanti abitanti ci stanno	quanti residenti
+A	quanti ce ne sono di	quanti
+A	quanti ce ne sono	quanti
+A	quanti ci stanno	quanti
+A	quante ce ne sono di	quante
+A	quante ce ne sono	quante
+A	quante ci stanno	quante
+A	numero di abitanti	quanti residenti
+A	numero degli abitanti	quanti residenti
+A	numero dei residenti	quanti residenti
+A	nella citta eterna	a roma
+A	nella capitale italiana	a roma
+A	nosocomi	ospedali
+A	strutture ospedaliere	ospedali
+A	strutture di degenza	ospedali
+A	presidi ospedalieri	ospedali
+A	strutture di ricovero	ospedali
+A	nosocomio	ospedale
+A	scuole materne	scuole dell infanzia
+A	scuola materna	scuole dell infanzia
+A	istituti dell infanzia	scuole dell infanzia
+A	nidi d infanzia	asili nido
+A	nidi di infanzia	asili nido
+A	asili per neonati	asili nido
+A	nidi per bambini	asili nido
+A	nidi per la prima infanzia	asili nido
+A	scuole elementari	scuole primarie
+A	scuola elementare	scuole primarie
+A	elementari	scuole primarie
+A	istituti di scuola primaria	scuole primarie
+A	scuole medie	scuole secondarie di primo grado
+A	scuola media	scuole secondarie di primo grado
+A	scuole superiori	scuole secondarie di secondo grado
+A	scuola superiore	scuole secondarie di secondo grado
+A	nuovi nati	nascite
+A	bambini nati	nascite
+A	nati vivi	nascite
+A	nascite registrate	nascite
+A	persone decedute	decessi
+A	persone morte	decessi
+A	morti	decessi
+A	tasso natalita	tasso di natalita
+A	tasso delle nascite	tasso di natalita
+A	tasso mortalita	tasso di mortalita
+A	bilancio migratorio	saldo migratorio
+A	bilancio naturale	saldo naturale
+A	media di eta	eta media
+A	aspettativa di vita	speranza di vita
+A	longevita attesa	speranza di vita
+A	tasso disoccupazione	tasso di disoccupazione
+A	tasso occupazione	tasso di occupazione
+A	reddito complessivo irpef	reddito complessivo dichiarato
+A	reddito dichiarato ai fini irpef	reddito complessivo dichiarato
+A	posti disponibili autorizzati	posti autorizzati
+A	capienza autorizzata	posti autorizzati
+A	proiezione demografica	previsione
+A	stima futura	previsione
+A	news	notizie
+A	rassegna stampa	notizie
+A	ultime news	notizie
+A	notizie recenti	notizie
+A	rapporti pubblicati	pubblicazioni
+A	pubblicazioni statistiche	pubblicazioni
+A	abitanti stranieri	residenti stranieri
+C	population	POPULIV	Popolazione residente	residenti | abitanti | popolazione residente | quanta gente | persone che vivono
+C	nursery	PROXIMA	Asili nido	asili nido | nidi d infanzia | nidi per bambini | nidi di infanzia
+C	childcare	PRAEVOL	Servizi per la prima infanzia	servizi educativi prima infanzia | servizi per bambini sotto i tre anni | servizi per la prima infanzia
+C	nursery_places	PRAEVOL	Posti autorizzati nei servizi per la prima infanzia	posti autorizzati | capienza autorizzata | posti disponibili autorizzati
+C	preschool	PROXIMA	Scuole dell infanzia	scuole materne | scuola materna | scuole dell infanzia
+C	school	PROXIMA	Scuole	istituti scolastici | plessi scolastici | scuole
+C	hospital	PROXIMA	Strutture di ricovero	nosocomi | ospedali | strutture ospedaliere | strutture di degenza
+C	births	PRAEVOL	Nati vivi	nascite | nuovi nati | nati vivi | bambini nati
+C	birth_rate	PRAEVOL	Tasso di natalità	tasso di natalita | tasso delle nascite
+C	deaths	PRAEVOL	Decessi	decessi | persone decedute | morti
+C	death_rate	PRAEVOL	Tasso di mortalità	tasso di mortalita
+C	life_expectancy	POPULIV	Speranza di vita alla nascita	speranza di vita | aspettativa di vita
+C	unemployment	POPULIV	Tasso di disoccupazione	tasso di disoccupazione | percentuale di disoccupati nella forza lavoro
+C	employment	POPULIV	Tasso di occupazione	tasso di occupazione
+C	income	POPULIV	Reddito complessivo dichiarato	reddito complessivo irpef | reddito dichiarato ai fini irpef | reddito complessivo dichiarato
+C	citizenship	POPULIV	Cittadinanza	cittadinanza | cittadini stranieri | residenti stranieri
+C	forecast	PRAEVOL	Previsioni demografiche	previsione demografica | proiezione demografica | previsioni demografiche
+C	news	PULSE	Notizie	notizie | news | rassegna stampa
+C	migration	PRAEVOL	Saldo migratorio	saldo migratorio | bilancio migratorio
+C	natural_balance	PRAEVOL	Saldo naturale	saldo naturale | bilancio naturale
+C	museum	PROXIMA	Musei	musei | museo
+C	park	PROXIMA	Parchi	parchi | parco
+C	garden	PROXIMA	Giardini	giardini | giardino
+C	villa	PROXIMA	Ville	ville | villa storica
+C	reserve	PROXIMA	Riserve naturali	riserve naturali | riserva naturale
+I	01SAL001	Speranza di vita alla nascita	Salute
+I	01SAL002	Speranza di vita in buona salute alla nascita	Salute
+I	01SAL003	Indice di salute mentale (MH)	Salute
+I	01SAL004	Mortalità infantile	Salute
+I	01SAL005	Mortalità per incidenti stradali (15-34 anni)	Salute
+I	01SAL006	Mortalità per tumore (20-64 anni)	Salute
+I	01SAL007	Mortalità per demenze e malattie del sistema nervoso (65 anni e più)	Salute
+I	01SAL008	Speranza di vita senza limitazioni nelle attività a 65 anni	Salute
+I	01SAL009	Eccesso di peso (tassi standardizzati)	Salute
+I	01SAL010	Fumo (tassi standardizzati)	Salute
+I	01SAL011	Alcol (tassi standardizzati)	Salute
+I	01SAL012	Sedentarietà (tassi standardizzati)	Salute
+I	01SAL013	Adeguata alimentazione (tassi standardizzati)	Salute
+I	01SAL020	Mortalità evitabile (0-74 anni)	Salute
+I	01SAL021	Multicronicità e limitazioni gravi (75 anni e più)	Salute
+I	02IST001	Partecipazione al sistema scolastico dei bambini di 4-5 anni	Istruzione e formazione
+I	02IST002-N22	Persone con almeno il diploma (25-64 anni)	Istruzione e formazione
+I	02IST004	Passaggio all'università	Istruzione e formazione
+I	02IST005-N22	Uscita precoce dal sistema di istruzione e formazione	Istruzione e formazione
+I	02IST006-N22	Giovani che non lavorano e non studiano (NEET)	Istruzione e formazione
+I	02IST007-N22	Partecipazione alla formazione continua	Istruzione e formazione
+I	02IST020	Bambini di 0-2 anni iscritti al nido	Istruzione e formazione
+I	02IST021	Persone che conseguono un titolo terziario STEM nell'anno	Istruzione e formazione
+I	02IST022	Partecipazione culturale fuori casa	Istruzione e formazione
+I	02IST023	Lettura di libri e quotidiani	Istruzione e formazione
+I	02IST024	Fruizione delle biblioteche	Istruzione e formazione
+I	02IST025	Competenze digitali almeno di base	Istruzione e formazione
+I	02IST026-N22	Laureati e altri titoli terziari (25-34 anni)	Istruzione e formazione
+I	03LAV001-N22	Tasso di occupazione (20-64 anni)	Lavoro e conciliazione dei tempi di vita
+I	03LAV002-N22	Tasso di mancata partecipazione al lavoro	Lavoro e conciliazione dei tempi di vita
+I	03LAV003	Trasformazioni da lavori instabili a lavori stabili	Lavoro e conciliazione dei tempi di vita
+I	03LAV004-N22	Occupati in lavori a termine da almeno 5 anni	Lavoro e conciliazione dei tempi di vita
+I	03LAV005	Dipendenti con bassa paga	Lavoro e conciliazione dei tempi di vita
+I	03LAV006-N25	Occupati sovraistruiti tra i laureati (25-64 anni)	Lavoro e conciliazione dei tempi di vita
+I	03LAV007	Tasso di infortuni sul lavoro mortali e con inabilità permanente	Lavoro e conciliazione dei tempi di vita
+I	03LAV008	Occupati non regolari	Lavoro e conciliazione dei tempi di vita
+I	03LAV009-N22	Rapporto tra i tassi di occupazione (25-49 anni) delle donne con figli in età prescolare e delle donne senza figli	Lavoro e conciliazione dei tempi di vita
+I	03LAV010	Occupati che svolgono più di 60 ore settimanali di lavoro retribuito e/o familiare	Lavoro e conciliazione dei tempi di vita
+I	03LAV013-N22	Percezione di insicurezza dell'occupazione	Lavoro e conciliazione dei tempi di vita
+I	03LAV014-N22	Part-time involontario	Lavoro e conciliazione dei tempi di vita
+I	03LAV021-N22	Occupati che lavorano da casa	Lavoro e conciliazione dei tempi di vita
+I	03LAV022-N22	Soddisfazione per il lavoro svolto	Lavoro e conciliazione dei tempi di vita
+I	04BEC001	Reddito disponibile lordo pro capite	Benessere economico
+I	04BEC002	Disuguaglianza del reddito netto (s80/s20)	Benessere economico
+I	04BEC003	Rischio di povertà	Benessere economico
+I	04BEC007-N23	Grave deprivazione materiale e sociale - Europa 2030	Benessere economico
+I	04BEC008	Grave deprivazione abitativa	Benessere economico
+I	04BEC009	Grande difficoltà ad arrivare a fine mese	Benessere economico
+I	04BEC010-N23	Bassa intensità di lavoro - Europa 2030	Benessere economico
+I	04BEC020	Situazione economica della famiglia	Benessere economico
+I	05REL001	Soddisfazione per le relazioni familiari	Relazioni sociali
+I	05REL002	Soddisfazione per le relazioni amicali	Relazioni sociali
+I	05REL003	Persone su cui contare	Relazioni sociali
+I	05REL005	Partecipazione civica e politica	Relazioni sociali
+I	05REL006	Attività di volontariato	Relazioni sociali
+I	05REL007	Finanziamento delle associazioni	Relazioni sociali
+I	05REL008	Organizzazioni non profit	Relazioni sociali
+I	05REL009	Fiducia generalizzata	Relazioni sociali
+I	05REL010	Partecipazione sociale	Relazioni sociali
+I	06POL001	Partecipazione elettorale	Politica e istituzioni
+I	06POL002	Fiducia nel Parlamento italiano	Politica e istituzioni
+I	06POL003	Fiducia nel sistema giudiziario	Politica e istituzioni
+I	06POL004	Fiducia nei partiti	Politica e istituzioni
+I	06POL005	Fiducia nelle Forze dell'ordine e nei Vigili del fuoco	Politica e istituzioni
+I	06POL006	Donne e rappresentanza politica in Parlamento	Politica e istituzioni
+I	06POL007	Donne e rappresentanza politica a livello locale	Politica e istituzioni
+I	06POL010	Età media dei parlamentari italiani	Politica e istituzioni
+I	06POL011	Durata dei procedimenti civili	Politica e istituzioni
+I	06POL012	Affollamento degli istituti di pena	Politica e istituzioni
+I	07SIC001	Omicidi volontari	Sicurezza
+I	07SIC002	Furti in abitazione	Sicurezza
+I	07SIC003	Borseggi	Sicurezza
+I	07SIC004	Rapine	Sicurezza
+I	07SIC005	Violenza fisica sulle donne	Sicurezza
+I	07SIC006	Violenza sessuale sulle donne	Sicurezza
+I	07SIC007	Violenza nella coppia	Sicurezza
+I	07SIC008	Preoccupazione di subire una violenza sessuale	Sicurezza
+I	07SIC010	Paura di stare per subire un reato	Sicurezza
+I	07SIC020	Percezione di sicurezza camminando da soli quando è buio	Sicurezza
+I	07SIC021	Presenza di elementi di degrado nella zona in cui si vive	Sicurezza
+I	07SIC022	Percezione del rischio di criminalità	Sicurezza
+I	08BSO001	Soddisfazione per la propria vita	Benessere soggettivo
+I	08BSO002	Soddisfazione per il tempo libero	Benessere soggettivo
+I	08BSO003	Giudizio positivo sulle prospettive future	Benessere soggettivo
+I	08BSO004	Giudizio negativo sulle prospettive future	Benessere soggettivo
+I	09PAE001	Spesa corrente dei Comuni per la cultura	Paesaggio e patrimonio culturale
+I	09PAE002	Densità e rilevanza del patrimonio museale	Paesaggio e patrimonio culturale
+I	09PAE004	Erosione dello spazio rurale da dispersione urbana (urban sprawl)	Paesaggio e patrimonio culturale
+I	09PAE005	Erosione dello spazio rurale da abbandono	Paesaggio e patrimonio culturale
+I	09PAE006	Pressione delle attività estrattive	Paesaggio e patrimonio culturale
+I	09PAE007	Impatto degli incendi boschivi	Paesaggio e patrimonio culturale
+I	09PAE008	Diffusione delle aziende agrituristiche	Paesaggio e patrimonio culturale
+I	09PAE009-N25	Densità di verde storico	Paesaggio e patrimonio culturale
+I	09PAE010	Insoddisfazione per il paesaggio del luogo di vita	Paesaggio e patrimonio culturale
+I	09PAE011	Preoccupazione per il deterioramento del paesaggio	Paesaggio e patrimonio culturale
+I	10AMB002	Consumo materiale interno	Ambiente
+I	10AMB003	Dispersione da rete idrica comunale	Ambiente
+I	10AMB004	Conferimento dei rifiuti urbani in discarica	Ambiente
+I	10AMB008	Disponibilità di verde urbano	Ambiente
+I	10AMB009	Soddisfazione per la situazione ambientale	Ambiente
+I	10AMB010	Siti contaminati	Ambiente
+I	10AMB011	Popolazione esposta al rischio di frane	Ambiente
+I	10AMB012	Popolazione esposta al rischio di alluvioni	Ambiente
+I	10AMB013	Trattamento delle acque reflue	Ambiente
+I	10AMB014	Aree protette	Ambiente
+I	10AMB015	Preoccupazione per la perdita di biodiversità	Ambiente
+I	10AMB016	Energia elettrica da fonti rinnovabili	Ambiente
+I	10AMB018	Impermeabilizzazione del suolo da copertura artificiale	Ambiente
+I	10AMB020	Qualità dell'aria - PM2.5	Ambiente
+I	10AMB023	Preoccupazione per cambiamenti climatici ed effetto serra	Ambiente
+I	10AMB024	Rifiuti urbani prodotti	Ambiente
+I	10AMB025	Indice di durata dei periodi di caldo	Ambiente
+I	10AMB027	Giorni consecutivi senza pioggia	Ambiente
+I	11RIC001	Intensità di ricerca	Innovazione, ricerca e creatività
+I	11RIC002	Propensione alla brevettazione	Innovazione, ricerca e creatività
+I	11RIC003-N22	Lavoratori della conoscenza	Innovazione, ricerca e creatività
+I	11RIC004	Innovazione del sistema produttivo	Innovazione, ricerca e creatività
+I	11RIC006-N22	Occupazione culturale e creativa	Innovazione, ricerca e creatività
+I	11RIC020	Utenti regolari di internet	Innovazione, ricerca e creatività
+I	11RIC022	Comuni con servizi per le famiglie interamente online	Innovazione, ricerca e creatività
+I	11RIC023	Imprese con almeno 10 addetti con vendite via web a clienti finali	Innovazione, ricerca e creatività
+I	11RIC025	Mobilità dei laureati italiani (25-39 anni)	Innovazione, ricerca e creatività
+I	12SER003	Anziani trattati in assistenza domiciliare integrata	Qualità dei servizi
+I	12SER004	Difficoltà di accesso ad alcuni servizi	Qualità dei servizi
+I	12SER006	Irregolarità nella distribuzione dell'acqua	Qualità dei servizi
+I	12SER007	Irregolarità del servizio elettrico	Qualità dei servizi
+I	12SER008	Posti-km offerti dal Tpl	Qualità dei servizi
+I	12SER010	Soddisfazione per i servizi di trasporto pubblico	Qualità dei servizi
+I	12SER020	Copertura della rete fissa di accesso ultra veloce a internet	Qualità dei servizi
+I	12SER021	Utenti assidui dei mezzi pubblici	Qualità dei servizi
+I	12SER022	Posti letto per specialità a elevata assistenza	Qualità dei servizi
+I	12SER024	Servizio di raccolta differenziata dei rifiuti urbani	Qualità dei servizi
+I	12SER025	Emigrazione ospedaliera in altra regione	Qualità dei servizi
+I	12SER026	Rinuncia a prestazioni sanitarie	Qualità dei servizi
+I	12SER027	Medici di medicina generale con un numero di assistiti oltre soglia	Qualità dei servizi
+I	SDG-222	Sovraccarico del costo dell'abitazione	Benessere economico
+I	SDG-3	Medici	Qualità dei servizi
+I	SDG-310	Competenza numerica non adeguata (studenti classi III scuola secondaria primo grado)	Istruzione e formazione
+I	SDG-311	Competenza alfabetica non adeguata (studenti classi III scuola secondaria primo grado)	Istruzione e formazione
+I	SDG-4	Infermieri e ostetriche	Qualità dei servizi
+I	SDG-405	Posti letto nei presidi residenziali socio-assistenziali e socio-sanitari	Qualità dei servizi
