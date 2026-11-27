@@ -1,0 +1,710 @@
+{
+  "source": "ISTAT BES, catalogo VALE 2.52",
+  "indicators": [
+    {
+      "id": "01SAL001",
+      "name": "Speranza di vita alla nascita",
+      "domain": "Salute"
+    },
+    {
+      "id": "01SAL002",
+      "name": "Speranza di vita in buona salute alla nascita",
+      "domain": "Salute"
+    },
+    {
+      "id": "01SAL003",
+      "name": "Indice di salute mentale (MH)",
+      "domain": "Salute"
+    },
+    {
+      "id": "01SAL004",
+      "name": "Mortalità infantile",
+      "domain": "Salute"
+    },
+    {
+      "id": "01SAL005",
+      "name": "Mortalità per incidenti stradali (15-34 anni)",
+      "domain": "Salute"
+    },
+    {
+      "id": "01SAL006",
+      "name": "Mortalità per tumore (20-64 anni)",
+      "domain": "Salute"
+    },
+    {
+      "id": "01SAL007",
+      "name": "Mortalità per demenze e malattie del sistema nervoso (65 anni e più)",
+      "domain": "Salute"
+    },
+    {
+      "id": "01SAL008",
+      "name": "Speranza di vita senza limitazioni nelle attività a 65 anni",
+      "domain": "Salute"
+    },
+    {
+      "id": "01SAL009",
+      "name": "Eccesso di peso (tassi standardizzati)",
+      "domain": "Salute"
+    },
+    {
+      "id": "01SAL010",
+      "name": "Fumo (tassi standardizzati)",
+      "domain": "Salute"
+    },
+    {
+      "id": "01SAL011",
+      "name": "Alcol (tassi standardizzati)",
+      "domain": "Salute"
+    },
+    {
+      "id": "01SAL012",
+      "name": "Sedentarietà (tassi standardizzati)",
+      "domain": "Salute"
+    },
+    {
+      "id": "01SAL013",
+      "name": "Adeguata alimentazione (tassi standardizzati)",
+      "domain": "Salute"
+    },
+    {
+      "id": "01SAL020",
+      "name": "Mortalità evitabile (0-74 anni)",
+      "domain": "Salute"
+    },
+    {
+      "id": "01SAL021",
+      "name": "Multicronicità e limitazioni gravi (75 anni e più)",
+      "domain": "Salute"
+    },
+    {
+      "id": "02IST001",
+      "name": "Partecipazione al sistema scolastico dei bambini di 4-5 anni",
+      "domain": "Istruzione e formazione"
+    },
+    {
+      "id": "02IST002-N22",
+      "name": "Persone con almeno il diploma (25-64 anni)",
+      "domain": "Istruzione e formazione"
+    },
+    {
+      "id": "02IST004",
+      "name": "Passaggio all'università",
+      "domain": "Istruzione e formazione"
+    },
+    {
+      "id": "02IST005-N22",
+      "name": "Uscita precoce dal sistema di istruzione e formazione",
+      "domain": "Istruzione e formazione"
+    },
+    {
+      "id": "02IST006-N22",
+      "name": "Giovani che non lavorano e non studiano (NEET)",
+      "domain": "Istruzione e formazione"
+    },
+    {
+      "id": "02IST007-N22",
+      "name": "Partecipazione alla formazione continua",
+      "domain": "Istruzione e formazione"
+    },
+    {
+      "id": "02IST020",
+      "name": "Bambini di 0-2 anni iscritti al nido",
+      "domain": "Istruzione e formazione"
+    },
+    {
+      "id": "02IST021",
+      "name": "Persone che conseguono un titolo terziario STEM nell'anno",
+      "domain": "Istruzione e formazione"
+    },
+    {
+      "id": "02IST022",
+      "name": "Partecipazione culturale fuori casa",
+      "domain": "Istruzione e formazione"
+    },
+    {
+      "id": "02IST023",
+      "name": "Lettura di libri e quotidiani",
+      "domain": "Istruzione e formazione"
+    },
+    {
+      "id": "02IST024",
+      "name": "Fruizione delle biblioteche",
+      "domain": "Istruzione e formazione"
+    },
+    {
+      "id": "02IST025",
+      "name": "Competenze digitali almeno di base",
+      "domain": "Istruzione e formazione"
+    },
+    {
+      "id": "02IST026-N22",
+      "name": "Laureati e altri titoli terziari (25-34 anni)",
+      "domain": "Istruzione e formazione"
+    },
+    {
+      "id": "03LAV001-N22",
+      "name": "Tasso di occupazione (20-64 anni)",
+      "domain": "Lavoro e conciliazione dei tempi di vita"
+    },
+    {
+      "id": "03LAV002-N22",
+      "name": "Tasso di mancata partecipazione al lavoro",
+      "domain": "Lavoro e conciliazione dei tempi di vita"
+    },
+    {
+      "id": "03LAV003",
+      "name": "Trasformazioni da lavori instabili a lavori stabili",
+      "domain": "Lavoro e conciliazione dei tempi di vita"
+    },
+    {
+      "id": "03LAV004-N22",
+      "name": "Occupati in lavori a termine da almeno 5 anni",
+      "domain": "Lavoro e conciliazione dei tempi di vita"
+    },
+    {
+      "id": "03LAV005",
+      "name": "Dipendenti con bassa paga",
+      "domain": "Lavoro e conciliazione dei tempi di vita"
+    },
+    {
+      "id": "03LAV006-N25",
+      "name": "Occupati sovraistruiti tra i laureati (25-64 anni)",
+      "domain": "Lavoro e conciliazione dei tempi di vita"
+    },
+    {
+      "id": "03LAV007",
+      "name": "Tasso di infortuni sul lavoro mortali e con inabilità permanente",
+      "domain": "Lavoro e conciliazione dei tempi di vita"
+    },
+    {
+      "id": "03LAV008",
+      "name": "Occupati non regolari",
+      "domain": "Lavoro e conciliazione dei tempi di vita"
+    },
+    {
+      "id": "03LAV009-N22",
+      "name": "Rapporto tra i tassi di occupazione (25-49 anni) delle donne con figli in età prescolare e delle donne senza figli",
+      "domain": "Lavoro e conciliazione dei tempi di vita"
+    },
+    {
+      "id": "03LAV010",
+      "name": "Occupati che svolgono più di 60 ore settimanali di lavoro retribuito e/o familiare",
+      "domain": "Lavoro e conciliazione dei tempi di vita"
+    },
+    {
+      "id": "03LAV013-N22",
+      "name": "Percezione di insicurezza dell'occupazione",
+      "domain": "Lavoro e conciliazione dei tempi di vita"
+    },
+    {
+      "id": "03LAV014-N22",
+      "name": "Part-time involontario",
+      "domain": "Lavoro e conciliazione dei tempi di vita"
+    },
+    {
+      "id": "03LAV021-N22",
+      "name": "Occupati che lavorano da casa",
+      "domain": "Lavoro e conciliazione dei tempi di vita"
+    },
+    {
+      "id": "03LAV022-N22",
+      "name": "Soddisfazione per il lavoro svolto",
+      "domain": "Lavoro e conciliazione dei tempi di vita"
+    },
+    {
+      "id": "04BEC001",
+      "name": "Reddito disponibile lordo pro capite",
+      "domain": "Benessere economico"
+    },
+    {
+      "id": "04BEC002",
+      "name": "Disuguaglianza del reddito netto (s80/s20)",
+      "domain": "Benessere economico"
+    },
+    {
+      "id": "04BEC003",
+      "name": "Rischio di povertà",
+      "domain": "Benessere economico"
+    },
+    {
+      "id": "04BEC007-N23",
+      "name": "Grave deprivazione materiale e sociale - Europa 2030",
+      "domain": "Benessere economico"
+    },
+    {
+      "id": "04BEC008",
+      "name": "Grave deprivazione abitativa",
+      "domain": "Benessere economico"
+    },
+    {
+      "id": "04BEC009",
+      "name": "Grande difficoltà ad arrivare a fine mese",
+      "domain": "Benessere economico"
+    },
+    {
+      "id": "04BEC010-N23",
+      "name": "Bassa intensità di lavoro - Europa 2030",
+      "domain": "Benessere economico"
+    },
+    {
+      "id": "04BEC020",
+      "name": "Situazione economica della famiglia",
+      "domain": "Benessere economico"
+    },
+    {
+      "id": "05REL001",
+      "name": "Soddisfazione per le relazioni familiari",
+      "domain": "Relazioni sociali"
+    },
+    {
+      "id": "05REL002",
+      "name": "Soddisfazione per le relazioni amicali",
+      "domain": "Relazioni sociali"
+    },
+    {
+      "id": "05REL003",
+      "name": "Persone su cui contare",
+      "domain": "Relazioni sociali"
+    },
+    {
+      "id": "05REL005",
+      "name": "Partecipazione civica e politica",
+      "domain": "Relazioni sociali"
+    },
+    {
+      "id": "05REL006",
+      "name": "Attività di volontariato",
+      "domain": "Relazioni sociali"
+    },
+    {
+      "id": "05REL007",
+      "name": "Finanziamento delle associazioni",
+      "domain": "Relazioni sociali"
+    },
+    {
+      "id": "05REL008",
+      "name": "Organizzazioni non profit",
+      "domain": "Relazioni sociali"
+    },
+    {
+      "id": "05REL009",
+      "name": "Fiducia generalizzata",
+      "domain": "Relazioni sociali"
+    },
+    {
+      "id": "05REL010",
+      "name": "Partecipazione sociale",
+      "domain": "Relazioni sociali"
+    },
+    {
+      "id": "06POL001",
+      "name": "Partecipazione elettorale",
+      "domain": "Politica e istituzioni"
+    },
+    {
+      "id": "06POL002",
+      "name": "Fiducia nel Parlamento italiano",
+      "domain": "Politica e istituzioni"
+    },
+    {
+      "id": "06POL003",
+      "name": "Fiducia nel sistema giudiziario",
+      "domain": "Politica e istituzioni"
+    },
+    {
+      "id": "06POL004",
+      "name": "Fiducia nei partiti",
+      "domain": "Politica e istituzioni"
+    },
+    {
+      "id": "06POL005",
+      "name": "Fiducia nelle Forze dell'ordine e nei Vigili del fuoco",
+      "domain": "Politica e istituzioni"
+    },
+    {
+      "id": "06POL006",
+      "name": "Donne e rappresentanza politica in Parlamento",
+      "domain": "Politica e istituzioni"
+    },
+    {
+      "id": "06POL007",
+      "name": "Donne e rappresentanza politica a livello locale",
+      "domain": "Politica e istituzioni"
+    },
+    {
+      "id": "06POL010",
+      "name": "Età media dei parlamentari italiani",
+      "domain": "Politica e istituzioni"
+    },
+    {
+      "id": "06POL011",
+      "name": "Durata dei procedimenti civili",
+      "domain": "Politica e istituzioni"
+    },
+    {
+      "id": "06POL012",
+      "name": "Affollamento degli istituti di pena",
+      "domain": "Politica e istituzioni"
+    },
+    {
+      "id": "07SIC001",
+      "name": "Omicidi volontari",
+      "domain": "Sicurezza"
+    },
+    {
+      "id": "07SIC002",
+      "name": "Furti in abitazione",
+      "domain": "Sicurezza"
+    },
+    {
+      "id": "07SIC003",
+      "name": "Borseggi",
+      "domain": "Sicurezza"
+    },
+    {
+      "id": "07SIC004",
+      "name": "Rapine",
+      "domain": "Sicurezza"
+    },
+    {
+      "id": "07SIC005",
+      "name": "Violenza fisica sulle donne",
+      "domain": "Sicurezza"
+    },
+    {
+      "id": "07SIC006",
+      "name": "Violenza sessuale sulle donne",
+      "domain": "Sicurezza"
+    },
+    {
+      "id": "07SIC007",
+      "name": "Violenza nella coppia",
+      "domain": "Sicurezza"
+    },
+    {
+      "id": "07SIC008",
+      "name": "Preoccupazione di subire una violenza sessuale",
+      "domain": "Sicurezza"
+    },
+    {
+      "id": "07SIC010",
+      "name": "Paura di stare per subire un reato",
+      "domain": "Sicurezza"
+    },
+    {
+      "id": "07SIC020",
+      "name": "Percezione di sicurezza camminando da soli quando è buio",
+      "domain": "Sicurezza"
+    },
+    {
+      "id": "07SIC021",
+      "name": "Presenza di elementi di degrado nella zona in cui si vive",
+      "domain": "Sicurezza"
+    },
+    {
+      "id": "07SIC022",
+      "name": "Percezione del rischio di criminalità",
+      "domain": "Sicurezza"
+    },
+    {
+      "id": "08BSO001",
+      "name": "Soddisfazione per la propria vita",
+      "domain": "Benessere soggettivo"
+    },
+    {
+      "id": "08BSO002",
+      "name": "Soddisfazione per il tempo libero",
+      "domain": "Benessere soggettivo"
+    },
+    {
+      "id": "08BSO003",
+      "name": "Giudizio positivo sulle prospettive future",
+      "domain": "Benessere soggettivo"
+    },
+    {
+      "id": "08BSO004",
+      "name": "Giudizio negativo sulle prospettive future",
+      "domain": "Benessere soggettivo"
+    },
+    {
+      "id": "09PAE001",
+      "name": "Spesa corrente dei Comuni per la cultura",
+      "domain": "Paesaggio e patrimonio culturale"
+    },
+    {
+      "id": "09PAE002",
+      "name": "Densità e rilevanza del patrimonio museale",
+      "domain": "Paesaggio e patrimonio culturale"
+    },
+    {
+      "id": "09PAE004",
+      "name": "Erosione dello spazio rurale da dispersione urbana (urban sprawl)",
+      "domain": "Paesaggio e patrimonio culturale"
+    },
+    {
+      "id": "09PAE005",
+      "name": "Erosione dello spazio rurale da abbandono",
+      "domain": "Paesaggio e patrimonio culturale"
+    },
+    {
+      "id": "09PAE006",
+      "name": "Pressione delle attività estrattive",
+      "domain": "Paesaggio e patrimonio culturale"
+    },
+    {
+      "id": "09PAE007",
+      "name": "Impatto degli incendi boschivi",
+      "domain": "Paesaggio e patrimonio culturale"
+    },
+    {
+      "id": "09PAE008",
+      "name": "Diffusione delle aziende agrituristiche",
+      "domain": "Paesaggio e patrimonio culturale"
+    },
+    {
+      "id": "09PAE009-N25",
+      "name": "Densità di verde storico",
+      "domain": "Paesaggio e patrimonio culturale"
+    },
+    {
+      "id": "09PAE010",
+      "name": "Insoddisfazione per il paesaggio del luogo di vita",
+      "domain": "Paesaggio e patrimonio culturale"
+    },
+    {
+      "id": "09PAE011",
+      "name": "Preoccupazione per il deterioramento del paesaggio",
+      "domain": "Paesaggio e patrimonio culturale"
+    },
+    {
+      "id": "10AMB002",
+      "name": "Consumo materiale interno",
+      "domain": "Ambiente"
+    },
+    {
+      "id": "10AMB003",
+      "name": "Dispersione da rete idrica comunale",
+      "domain": "Ambiente"
+    },
+    {
+      "id": "10AMB004",
+      "name": "Conferimento dei rifiuti urbani in discarica",
+      "domain": "Ambiente"
+    },
+    {
+      "id": "10AMB008",
+      "name": "Disponibilità di verde urbano",
+      "domain": "Ambiente"
+    },
+    {
+      "id": "10AMB009",
+      "name": "Soddisfazione per la situazione ambientale",
+      "domain": "Ambiente"
+    },
+    {
+      "id": "10AMB010",
+      "name": "Siti contaminati",
+      "domain": "Ambiente"
+    },
+    {
+      "id": "10AMB011",
+      "name": "Popolazione esposta al rischio di frane",
+      "domain": "Ambiente"
+    },
+    {
+      "id": "10AMB012",
+      "name": "Popolazione esposta al rischio di alluvioni",
+      "domain": "Ambiente"
+    },
+    {
+      "id": "10AMB013",
+      "name": "Trattamento delle acque reflue",
+      "domain": "Ambiente"
+    },
+    {
+      "id": "10AMB014",
+      "name": "Aree protette",
+      "domain": "Ambiente"
+    },
+    {
+      "id": "10AMB015",
+      "name": "Preoccupazione per la perdita di biodiversità",
+      "domain": "Ambiente"
+    },
+    {
+      "id": "10AMB016",
+      "name": "Energia elettrica da fonti rinnovabili",
+      "domain": "Ambiente"
+    },
+    {
+      "id": "10AMB018",
+      "name": "Impermeabilizzazione del suolo da copertura artificiale",
+      "domain": "Ambiente"
+    },
+    {
+      "id": "10AMB020",
+      "name": "Qualità dell'aria - PM2.5",
+      "domain": "Ambiente"
+    },
+    {
+      "id": "10AMB023",
+      "name": "Preoccupazione per cambiamenti climatici ed effetto serra",
+      "domain": "Ambiente"
+    },
+    {
+      "id": "10AMB024",
+      "name": "Rifiuti urbani prodotti",
+      "domain": "Ambiente"
+    },
+    {
+      "id": "10AMB025",
+      "name": "Indice di durata dei periodi di caldo",
+      "domain": "Ambiente"
+    },
+    {
+      "id": "10AMB027",
+      "name": "Giorni consecutivi senza pioggia",
+      "domain": "Ambiente"
+    },
+    {
+      "id": "11RIC001",
+      "name": "Intensità di ricerca",
+      "domain": "Innovazione, ricerca e creatività"
+    },
+    {
+      "id": "11RIC002",
+      "name": "Propensione alla brevettazione",
+      "domain": "Innovazione, ricerca e creatività"
+    },
+    {
+      "id": "11RIC003-N22",
+      "name": "Lavoratori della conoscenza",
+      "domain": "Innovazione, ricerca e creatività"
+    },
+    {
+      "id": "11RIC004",
+      "name": "Innovazione del sistema produttivo",
+      "domain": "Innovazione, ricerca e creatività"
+    },
+    {
+      "id": "11RIC006-N22",
+      "name": "Occupazione culturale e creativa",
+      "domain": "Innovazione, ricerca e creatività"
+    },
+    {
+      "id": "11RIC020",
+      "name": "Utenti regolari di internet",
+      "domain": "Innovazione, ricerca e creatività"
+    },
+    {
+      "id": "11RIC022",
+      "name": "Comuni con servizi per le famiglie interamente online",
+      "domain": "Innovazione, ricerca e creatività"
+    },
+    {
+      "id": "11RIC023",
+      "name": "Imprese con almeno 10 addetti con vendite via web a clienti finali",
+      "domain": "Innovazione, ricerca e creatività"
+    },
+    {
+      "id": "11RIC025",
+      "name": "Mobilità dei laureati italiani (25-39 anni)",
+      "domain": "Innovazione, ricerca e creatività"
+    },
+    {
+      "id": "12SER003",
+      "name": "Anziani trattati in assistenza domiciliare integrata",
+      "domain": "Qualità dei servizi"
+    },
+    {
+      "id": "12SER004",
+      "name": "Difficoltà di accesso ad alcuni servizi",
+      "domain": "Qualità dei servizi"
+    },
+    {
+      "id": "12SER006",
+      "name": "Irregolarità nella distribuzione dell'acqua",
+      "domain": "Qualità dei servizi"
+    },
+    {
+      "id": "12SER007",
+      "name": "Irregolarità del servizio elettrico",
+      "domain": "Qualità dei servizi"
+    },
+    {
+      "id": "12SER008",
+      "name": "Posti-km offerti dal Tpl",
+      "domain": "Qualità dei servizi"
+    },
+    {
+      "id": "12SER010",
+      "name": "Soddisfazione per i servizi di trasporto pubblico",
+      "domain": "Qualità dei servizi"
+    },
+    {
+      "id": "12SER020",
+      "name": "Copertura della rete fissa di accesso ultra veloce a internet",
+      "domain": "Qualità dei servizi"
+    },
+    {
+      "id": "12SER021",
+      "name": "Utenti assidui dei mezzi pubblici",
+      "domain": "Qualità dei servizi"
+    },
+    {
+      "id": "12SER022",
+      "name": "Posti letto per specialità a elevata assistenza",
+      "domain": "Qualità dei servizi"
+    },
+    {
+      "id": "12SER024",
+      "name": "Servizio di raccolta differenziata dei rifiuti urbani",
+      "domain": "Qualità dei servizi"
+    },
+    {
+      "id": "12SER025",
+      "name": "Emigrazione ospedaliera in altra regione",
+      "domain": "Qualità dei servizi"
+    },
+    {
+      "id": "12SER026",
+      "name": "Rinuncia a prestazioni sanitarie",
+      "domain": "Qualità dei servizi"
+    },
+    {
+      "id": "12SER027",
+      "name": "Medici di medicina generale con un numero di assistiti oltre soglia",
+      "domain": "Qualità dei servizi"
+    },
+    {
+      "id": "SDG-222",
+      "name": "Sovraccarico del costo dell'abitazione",
+      "domain": "Benessere economico"
+    },
+    {
+      "id": "SDG-3",
+      "name": "Medici",
+      "domain": "Qualità dei servizi"
+    },
+    {
+      "id": "SDG-310",
+      "name": "Competenza numerica non adeguata (studenti classi III scuola secondaria primo grado)",
+      "domain": "Istruzione e formazione"
+    },
+    {
+      "id": "SDG-311",
+      "name": "Competenza alfabetica non adeguata (studenti classi III scuola secondaria primo grado)",
+      "domain": "Istruzione e formazione"
+    },
+    {
+      "id": "SDG-4",
+      "name": "Infermieri e ostetriche",
+      "domain": "Qualità dei servizi"
+    },
+    {
+      "id": "SDG-405",
+      "name": "Posti letto nei presidi residenziali socio-assistenziali e socio-sanitari",
+      "domain": "Qualità dei servizi"
+    }
+  ]
+}

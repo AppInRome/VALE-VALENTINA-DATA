@@ -1,0 +1,11 @@
+# Regole statistiche
+- Ogni risultato indica fonte, anno, territorio, unità e universo. Dato mancante ≠ zero.
+- Nidi, scuole dell'infanzia, servizi integrativi e posti autorizzati sono indicatori diversi. Non sommarli senza disaggregazione compatibile.
+- I record MIM non equivalgono necessariamente a sedi fisiche uniche. Le strutture di ricovero non sono tutte le strutture sanitarie.
+- Il reddito IRPEF non è stipendio netto. La media usa il denominatore coerente con l'ammontare dichiarato.
+- Tasso di disoccupazione: quota della forza lavoro; tasso di occupazione: quota della popolazione di riferimento.
+- I dati osservati non sono previsioni. Esplicitare scenario e incertezza; non estrapolare senza metodo.
+- Gli incroci statistici non disponibili non possono essere dedotti moltiplicando margini indipendenti. Per percentuali conservare il denominatore pertinente.
+- PROXIMA: distinguere stime per raggio, record geolocalizzati e conteggi comunali; nessun geocoding inventato.
+- News e Wikipedia non costituiscono di per sé una verifica di un numero; preferire fonte primaria.
+- Il catalogo identifica candidati: non prova che ogni indicatore sia interrogabile dalla chat. Nessun SQL generato liberamente; adattatori in sola lettura e filtri validati.

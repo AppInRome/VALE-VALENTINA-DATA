@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    "population",
+    "nursery",
+    "childcare",
+    "nursery_places",
+    "preschool",
+    "school",
+    "hospital",
+    "births",
+    "birth_rate",
+    "deaths",
+    "death_rate",
+    "life_expectancy",
+    "unemployment",
+    "employment",
+    "income",
+    "citizenship",
+    "forecast",
+    "news",
+    "migration",
+    "natural_balance",
+    "museum",
+    "park",
+    "garden",
+    "villa",
+    "reserve"
+  ],
+  "edges": [
+    {
+      "from": "nursery",
+      "to": "childcare",
+      "relation": "subtype"
+    },
+    {
+      "from": "nursery_places",
+      "to": "childcare",
+      "relation": "capacity_of"
+    },
+    {
+      "from": "preschool",
+      "to": "school",
+      "relation": "subtype"
+    },
+    {
+      "from": "births",
+      "to": "birth_rate",
+      "relation": "numerator_related"
+    },
+    {
+      "from": "deaths",
+      "to": "death_rate",
+      "relation": "numerator_related"
+    },
+    {
+      "from": "births",
+      "to": "nursery",
+      "relation": "demand_related_not_causal"
+    },
+    {
+      "from": "population",
+      "to": "forecast",
+      "relation": "projected_from"
+    },
+    {
+      "from": "population",
+      "to": "citizenship",
+      "relation": "dimension"
+    },
+    {
+      "from": "migration",
+      "to": "population",
+      "relation": "component"
+    },
+    {
+      "from": "natural_balance",
+      "to": "population",
+      "relation": "component"
+    },
+    {
+      "from": "births",
+      "to": "natural_balance",
+      "relation": "component"
+    },
+    {
+      "from": "deaths",
+      "to": "natural_balance",
+      "relation": "component"
+    }
+  ],
+  "note": "Relazioni di navigazione, non equivalenze né causalità dimostrate."
+}

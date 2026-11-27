@@ -1,0 +1,61 @@
+{
+  "description": "Casi di riferimento di routing e disambiguazione, non risposte certificate da ISTAT",
+  "cases": [
+    {
+      "question": "Quanti nosocomi a Roma?",
+      "id": "hospital"
+    },
+    {
+      "question": "Quante scuole materne a Roma?",
+      "id": "preschool"
+    },
+    {
+      "question": "Quanti asili nido?",
+      "id": "nursery"
+    },
+    {
+      "question": "Quanti posti autorizzati?",
+      "id": "nursery_places"
+    },
+    {
+      "question": "Quanta gente vive a Roma?",
+      "id": "population"
+    },
+    {
+      "question": "Qual è il tasso di natalità?",
+      "id": "birth_rate"
+    },
+    {
+      "question": "Quanti nuovi nati?",
+      "id": "births"
+    },
+    {
+      "question": "Qual è l'aspettativa di vita?",
+      "id": "life_expectancy"
+    },
+    {
+      "question": "Tasso di disoccupazione in Italia",
+      "id": "unemployment"
+    },
+    {
+      "question": "Ultime news",
+      "id": "news"
+    },
+    {
+      "question": "Quanti asili?",
+      "status": "ambiguous"
+    },
+    {
+      "question": "Quanto è lo stipendio?",
+      "status": "ambiguous"
+    },
+    {
+      "question": "Qual è la mortalità?",
+      "status": "ambiguous"
+    },
+    {
+      "question": "Scrivimi una poesia",
+      "status": "not_found"
+    }
+  ]
+}

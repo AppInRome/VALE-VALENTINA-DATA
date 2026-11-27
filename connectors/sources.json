@@ -1,0 +1,45 @@
+{
+  "sources": [
+    {
+      "id": "eurostat",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/",
+      "status": "adapter_offline_tested_live_pending"
+    },
+    {
+      "id": "istat",
+      "url": "https://esploradati.istat.it/SDMXWS/",
+      "status": "directory_only"
+    },
+    {
+      "id": "mim",
+      "url": "https://dati.istruzione.it/opendata/",
+      "status": "directory_only"
+    },
+    {
+      "id": "salute",
+      "url": "https://www.dati.salute.gov.it/",
+      "status": "directory_only"
+    },
+    {
+      "id": "mef",
+      "url": "https://www1.finanze.gov.it/finanze/analisi_stat/public/index.php?opendata=yes",
+      "status": "directory_only"
+    },
+    {
+      "id": "roma",
+      "url": "https://www.comune.roma.it/web/it/partecipa-portale-open-data.page",
+      "status": "directory_only"
+    },
+    {
+      "id": "wikidata",
+      "url": "https://www.wikidata.org/",
+      "status": "directory_only"
+    },
+    {
+      "id": "worldbank",
+      "url": "https://api.worldbank.org/v2/",
+      "status": "adapter_offline_tested_live_pending"
+    }
+  ],
+  "policy": "Public sources only; no keys; no scraping of Google Search or paywalls; respect terms and quotas; links are not implemented connectors."
+}

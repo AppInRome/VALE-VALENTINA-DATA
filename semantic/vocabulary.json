@@ -1,0 +1,508 @@
+{
+  "schema": 1,
+  "origin": "VALE 2.54 bundled knowledge pack 25301",
+  "normalization_rules": [
+    {
+      "canonical": "quanti residenti",
+      "aliases": [
+        "quanta gente abita",
+        "quanta gente vive",
+        "quante persone abitano",
+        "quante persone vivono",
+        "quante persone risiedono",
+        "quante persone ci vivono",
+        "quante persone ci abitano",
+        "quanti individui vivono",
+        "quanti abitanti ci stanno"
+      ]
+    },
+    {
+      "canonical": "quanti",
+      "aliases": [
+        "quanti ce ne sono di",
+        "quanti ce ne sono",
+        "quanti ci stanno"
+      ]
+    },
+    {
+      "canonical": "quante",
+      "aliases": [
+        "quante ce ne sono di",
+        "quante ce ne sono",
+        "quante ci stanno"
+      ]
+    },
+    {
+      "canonical": "quanti residenti",
+      "aliases": [
+        "numero di abitanti",
+        "numero degli abitanti",
+        "numero dei residenti"
+      ]
+    },
+    {
+      "canonical": "a roma",
+      "aliases": [
+        "nella citta eterna",
+        "nella capitale italiana"
+      ]
+    },
+    {
+      "canonical": "ospedali",
+      "aliases": [
+        "nosocomi",
+        "strutture ospedaliere",
+        "strutture di degenza",
+        "presidi ospedalieri",
+        "strutture di ricovero"
+      ]
+    },
+    {
+      "canonical": "ospedale",
+      "aliases": [
+        "nosocomio"
+      ]
+    },
+    {
+      "canonical": "scuole dell infanzia",
+      "aliases": [
+        "scuole materne",
+        "scuola materna",
+        "istituti dell infanzia"
+      ]
+    },
+    {
+      "canonical": "asili nido",
+      "aliases": [
+        "nidi d infanzia",
+        "nidi di infanzia",
+        "asili per neonati",
+        "nidi per bambini",
+        "nidi per la prima infanzia"
+      ]
+    },
+    {
+      "canonical": "scuole primarie",
+      "aliases": [
+        "scuole elementari",
+        "scuola elementare",
+        "elementari",
+        "istituti di scuola primaria"
+      ]
+    },
+    {
+      "canonical": "scuole secondarie di primo grado",
+      "aliases": [
+        "scuole medie",
+        "scuola media"
+      ]
+    },
+    {
+      "canonical": "scuole secondarie di secondo grado",
+      "aliases": [
+        "scuole superiori",
+        "scuola superiore"
+      ]
+    },
+    {
+      "canonical": "nascite",
+      "aliases": [
+        "nuovi nati",
+        "bambini nati",
+        "nati vivi",
+        "nascite registrate"
+      ]
+    },
+    {
+      "canonical": "decessi",
+      "aliases": [
+        "persone decedute",
+        "persone morte",
+        "morti"
+      ]
+    },
+    {
+      "canonical": "tasso di natalita",
+      "aliases": [
+        "tasso natalita",
+        "tasso delle nascite"
+      ]
+    },
+    {
+      "canonical": "tasso di mortalita",
+      "aliases": [
+        "tasso mortalita"
+      ]
+    },
+    {
+      "canonical": "saldo migratorio",
+      "aliases": [
+        "bilancio migratorio"
+      ]
+    },
+    {
+      "canonical": "saldo naturale",
+      "aliases": [
+        "bilancio naturale"
+      ]
+    },
+    {
+      "canonical": "eta media",
+      "aliases": [
+        "media di eta"
+      ]
+    },
+    {
+      "canonical": "speranza di vita",
+      "aliases": [
+        "aspettativa di vita",
+        "longevita attesa"
+      ]
+    },
+    {
+      "canonical": "tasso di disoccupazione",
+      "aliases": [
+        "tasso disoccupazione"
+      ]
+    },
+    {
+      "canonical": "tasso di occupazione",
+      "aliases": [
+        "tasso occupazione"
+      ]
+    },
+    {
+      "canonical": "reddito complessivo dichiarato",
+      "aliases": [
+        "reddito complessivo irpef",
+        "reddito dichiarato ai fini irpef"
+      ]
+    },
+    {
+      "canonical": "posti autorizzati",
+      "aliases": [
+        "posti disponibili autorizzati",
+        "capienza autorizzata"
+      ]
+    },
+    {
+      "canonical": "previsione",
+      "aliases": [
+        "proiezione demografica",
+        "stima futura"
+      ]
+    },
+    {
+      "canonical": "notizie",
+      "aliases": [
+        "news",
+        "rassegna stampa",
+        "ultime news",
+        "notizie recenti"
+      ]
+    },
+    {
+      "canonical": "pubblicazioni",
+      "aliases": [
+        "rapporti pubblicati",
+        "pubblicazioni statistiche"
+      ]
+    },
+    {
+      "canonical": "residenti stranieri",
+      "aliases": [
+        "abitanti stranieri"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "id": "population",
+      "label": "Popolazione residente",
+      "module": "POPULIV",
+      "aliases": [
+        "residenti",
+        "abitanti",
+        "popolazione residente",
+        "quanta gente",
+        "persone che vivono"
+      ],
+      "unit": "persone"
+    },
+    {
+      "id": "nursery",
+      "label": "Asili nido",
+      "module": "PROXIMA",
+      "aliases": [
+        "asili nido",
+        "nidi d infanzia",
+        "nidi per bambini",
+        "nidi di infanzia"
+      ],
+      "unit": "strutture"
+    },
+    {
+      "id": "childcare",
+      "label": "Servizi per la prima infanzia",
+      "module": "PRAEVOL",
+      "aliases": [
+        "servizi educativi prima infanzia",
+        "servizi per bambini sotto i tre anni",
+        "servizi per la prima infanzia"
+      ],
+      "unit": "strutture"
+    },
+    {
+      "id": "nursery_places",
+      "label": "Posti autorizzati nei servizi per la prima infanzia",
+      "module": "PRAEVOL",
+      "aliases": [
+        "posti autorizzati",
+        "capienza autorizzata",
+        "posti disponibili autorizzati"
+      ],
+      "unit": "posti"
+    },
+    {
+      "id": "preschool",
+      "label": "Scuole dell infanzia",
+      "module": "PROXIMA",
+      "aliases": [
+        "scuole materne",
+        "scuola materna",
+        "scuole dell infanzia"
+      ],
+      "unit": "record scolastici"
+    },
+    {
+      "id": "school",
+      "label": "Scuole",
+      "module": "PROXIMA",
+      "aliases": [
+        "istituti scolastici",
+        "plessi scolastici",
+        "scuole"
+      ],
+      "unit": "record scolastici"
+    },
+    {
+      "id": "hospital",
+      "label": "Strutture di ricovero",
+      "module": "PROXIMA",
+      "aliases": [
+        "nosocomi",
+        "ospedali",
+        "strutture ospedaliere",
+        "strutture di degenza"
+      ],
+      "unit": "strutture"
+    },
+    {
+      "id": "births",
+      "label": "Nati vivi",
+      "module": "PRAEVOL",
+      "aliases": [
+        "nascite",
+        "nuovi nati",
+        "nati vivi",
+        "bambini nati"
+      ],
+      "unit": "persone"
+    },
+    {
+      "id": "birth_rate",
+      "label": "Tasso di natalità",
+      "module": "PRAEVOL",
+      "aliases": [
+        "tasso di natalita",
+        "tasso delle nascite"
+      ],
+      "unit": "tasso"
+    },
+    {
+      "id": "deaths",
+      "label": "Decessi",
+      "module": "PRAEVOL",
+      "aliases": [
+        "decessi",
+        "persone decedute",
+        "morti"
+      ],
+      "unit": "persone"
+    },
+    {
+      "id": "death_rate",
+      "label": "Tasso di mortalità",
+      "module": "PRAEVOL",
+      "aliases": [
+        "tasso di mortalita"
+      ],
+      "unit": "tasso"
+    },
+    {
+      "id": "life_expectancy",
+      "label": "Speranza di vita alla nascita",
+      "module": "POPULIV",
+      "aliases": [
+        "speranza di vita",
+        "aspettativa di vita"
+      ],
+      "unit": "anni"
+    },
+    {
+      "id": "unemployment",
+      "label": "Tasso di disoccupazione",
+      "module": "POPULIV",
+      "aliases": [
+        "tasso di disoccupazione",
+        "percentuale di disoccupati nella forza lavoro"
+      ],
+      "unit": "percentuale forza lavoro"
+    },
+    {
+      "id": "employment",
+      "label": "Tasso di occupazione",
+      "module": "POPULIV",
+      "aliases": [
+        "tasso di occupazione"
+      ],
+      "unit": "percentuale popolazione di riferimento"
+    },
+    {
+      "id": "income",
+      "label": "Reddito complessivo dichiarato",
+      "module": "POPULIV",
+      "aliases": [
+        "reddito complessivo irpef",
+        "reddito dichiarato ai fini irpef",
+        "reddito complessivo dichiarato"
+      ],
+      "unit": "euro"
+    },
+    {
+      "id": "citizenship",
+      "label": "Cittadinanza",
+      "module": "POPULIV",
+      "aliases": [
+        "cittadinanza",
+        "cittadini stranieri",
+        "residenti stranieri"
+      ],
+      "unit": "persone"
+    },
+    {
+      "id": "forecast",
+      "label": "Previsioni demografiche",
+      "module": "PRAEVOL",
+      "aliases": [
+        "previsione demografica",
+        "proiezione demografica",
+        "previsioni demografiche"
+      ],
+      "unit": "dipende indicatore"
+    },
+    {
+      "id": "news",
+      "label": "Notizie",
+      "module": "PULSE",
+      "aliases": [
+        "notizie",
+        "news",
+        "rassegna stampa"
+      ],
+      "unit": "articoli"
+    },
+    {
+      "id": "migration",
+      "label": "Saldo migratorio",
+      "module": "PRAEVOL",
+      "aliases": [
+        "saldo migratorio",
+        "bilancio migratorio"
+      ],
+      "unit": "persone"
+    },
+    {
+      "id": "natural_balance",
+      "label": "Saldo naturale",
+      "module": "PRAEVOL",
+      "aliases": [
+        "saldo naturale",
+        "bilancio naturale"
+      ],
+      "unit": "persone"
+    },
+    {
+      "id": "museum",
+      "label": "Musei",
+      "module": "PROXIMA",
+      "aliases": [
+        "musei",
+        "museo"
+      ],
+      "unit": "strutture"
+    },
+    {
+      "id": "park",
+      "label": "Parchi",
+      "module": "PROXIMA",
+      "aliases": [
+        "parchi",
+        "parco"
+      ],
+      "unit": "record"
+    },
+    {
+      "id": "garden",
+      "label": "Giardini",
+      "module": "PROXIMA",
+      "aliases": [
+        "giardini",
+        "giardino"
+      ],
+      "unit": "record"
+    },
+    {
+      "id": "villa",
+      "label": "Ville",
+      "module": "PROXIMA",
+      "aliases": [
+        "ville",
+        "villa storica"
+      ],
+      "unit": "record"
+    },
+    {
+      "id": "reserve",
+      "label": "Riserve naturali",
+      "module": "PROXIMA",
+      "aliases": [
+        "riserve naturali",
+        "riserva naturale"
+      ],
+      "unit": "record"
+    }
+  ],
+  "ambiguous": {
+    "asili": [
+      "nursery",
+      "preschool"
+    ],
+    "reddito": [
+      "income"
+    ],
+    "stipendio": [],
+    "sanita": [
+      "hospital"
+    ],
+    "mortalita": [
+      "deaths",
+      "death_rate"
+    ],
+    "natalita": [
+      "births",
+      "birth_rate"
+    ]
+  },
+  "note": "Alias ambigui sono suggerimenti, non sostituzioni statistiche."
+}
