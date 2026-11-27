@@ -1,0 +1,2 @@
+# Android local AI
+E5: use a pinned, license-reviewed ONNX export with matching tokenizer and masked mean pooling, normalization and query/passage prefixes. Verify parity against Python. FTS5 availability must be tested on target Android SQLite; bundle a compatible implementation if absent. LiteRT-LM/Gemma: select a supported exact model, verify license, checksum, memory and latency on Vivo; optional download only. Give the model validated tool outputs, never authorize arbitrary SQL or numeric generation. No paid API calls.

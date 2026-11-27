@@ -1,0 +1,37 @@
+{
+  "status": "seed_only",
+  "systems": [
+    {
+      "id": "ISTAT",
+      "url": "https://www.istat.it/classificazioni-e-strumenti/codici-statistici-delle-unita-amministrative-territoriali/"
+    },
+    {
+      "id": "NUTS",
+      "url": "https://ec.europa.eu/eurostat/web/nuts"
+    },
+    {
+      "id": "UN_M49",
+      "url": "https://unstats.un.org/unsd/methodology/m49/"
+    }
+  ],
+  "examples": [
+    {
+      "name": "Roma",
+      "istat": "058091",
+      "level": "comune"
+    },
+    {
+      "name": "Milano",
+      "istat": "015146",
+      "level": "comune"
+    },
+    {
+      "name": "Italia",
+      "iso2": "IT",
+      "iso3": "ITA",
+      "m49": "380",
+      "level": "country"
+    }
+  ],
+  "policy": "No equivalence between municipality, metro area, district or historical boundaries without dated crosswalk."
+}

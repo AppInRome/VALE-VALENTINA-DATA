@@ -1,0 +1,25 @@
+{
+  "status": "reference_contract_not_apk_verified",
+  "modules": [
+    {
+      "id": "POPULIV",
+      "scope": "Population and combinations",
+      "guard": "Only available joint observations; preserve denominator"
+    },
+    {
+      "id": "PROXIMA",
+      "scope": "Territory and services",
+      "guard": "Dated boundaries, distinguish records from physical locations"
+    },
+    {
+      "id": "PRAEVOL",
+      "scope": "Demographic projections",
+      "guard": "Scenario, geography and uncertainty required"
+    },
+    {
+      "id": "PULSE",
+      "scope": "Official publications",
+      "guard": "Original source, date, no generated news"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+name: Validate knowledge v2
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 validation/check.py
+      - run: python3 -m unittest discover -s tests -p 'test_v2*.py'
+      - run: python3 validation/build_v2.py /tmp/vale-pack-v2
