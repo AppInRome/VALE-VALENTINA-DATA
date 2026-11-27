@@ -1,0 +1,16 @@
+name: Validate Valentina knowledge
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    if: ${{ vars.VALE_ENABLE_ACTIONS == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 validation/check.py
+      - run: git diff --exit-code -- distribution/knowledge.tsv

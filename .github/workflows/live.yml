@@ -1,0 +1,12 @@
+name: Live public API smoke tests
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  live:
+    if: ${{ vars.VALE_ENABLE_ACTIONS == 'true' && vars.VALE_ENABLE_PUBLIC_REFRESH == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 validation/live_check.py
