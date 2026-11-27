@@ -1,0 +1,11 @@
+name: Live institutional diagnostics
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 validation/live_v2.py

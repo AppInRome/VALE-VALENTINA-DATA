@@ -1,0 +1,2 @@
+# Local model acquisition
+E5: download only a pinned revision of intfloat/multilingual-e5-small after reviewing MIT license and exact files; record SHA256 for tokenizer, config and ONNX weights. Use local-only inference and compare vectors against the reference encoder. Gemma: review exact model terms and supported LiteRT-LM format; test memory, thermal behavior and latency on Vivo X300 Pro. No automatic download, API subscription or claim of Android compatibility before device testing.
