@@ -1,0 +1,36 @@
+{
+  "runtime_policy": "offline_only; no automatic download; user opt-in; verify checksum and license before load",
+  "models": [
+    {
+      "id": "multilingual-e5-small",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-small",
+      "purpose": "embedding",
+      "status": "pc_adapter_source_weights_missing",
+      "license": "MIT; verify snapshot",
+      "script": "models/e5_search.py"
+    },
+    {
+      "id": "gemma",
+      "url": "https://ai.google.dev/gemma",
+      "purpose": "local conversational model",
+      "status": "experimental_android_adapter_weights_missing",
+      "license": "Gemma terms for exact variant"
+    },
+    {
+      "id": "llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "purpose": "local runtime",
+      "status": "pc_adapter_binary_missing",
+      "script": "models/local_llm.py",
+      "license": "MIT; model license separate"
+    },
+    {
+      "id": "omw-italian",
+      "url": "https://github.com/omwn/omw-data/tree/main/wns/ita",
+      "purpose": "lexical expansion",
+      "status": "source_missing",
+      "license": "verify MultiWordNet attribution and license before redistribution",
+      "script": "semantic/import_wordnet.py"
+    }
+  ]
+}

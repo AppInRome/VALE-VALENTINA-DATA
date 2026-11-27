@@ -1,0 +1,808 @@
+{
+  "base_release": "2.52",
+  "scope": "Inventario dei nomi e schemi del pacchetto 1.1. Metadati, non copie dei database. Nessuna garanzia di interrogabilità conversazionale.",
+  "files": [
+    {
+      "module": "POPULIV",
+      "file": "asset_integrity_v127.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "avq_joint_2024_v131.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "avq_joint_quality_v132.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "avq_public_joint_v115.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "avq_themes_2024_v136.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "bes_profile_focus_v111.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "engine_coverage_v112.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "engine_coverage_v113.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "engine_coverage_v114.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "engine_coverage_v115.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "engine_coverage_v116.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "engine_manifest.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "engine_release.sqlite",
+      "conversation_status": "catalogued_not_end_to_end_verified",
+      "tables": {
+        "demographic_joint": [
+          "geo_level",
+          "geo_name",
+          "age_band",
+          "sex",
+          "people",
+          "year",
+          "source_dataset"
+        ],
+        "engine_capabilities": [
+          "mask",
+          "method",
+          "year",
+          "geo_levels",
+          "status",
+          "reason"
+        ],
+        "metadata": [
+          "key",
+          "value"
+        ]
+      }
+    },
+    {
+      "module": "POPULIV",
+      "file": "europe_31_source_inventory_v120.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "europe_age_sex_v121.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "europe_countries_v118.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "europe_coverage_v118.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "europe_households_children_v125.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "europe_pps_median_v117.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "europe_profile_core_v118.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "europe_profile_core_v120.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "europe_regions_v120.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "eurostat_adults_resident_children_2025.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "eurostat_citizenship_v1508.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "eurostat_health_v150.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "eurostat_household_size_v147.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "eurostat_lifestyle_v150.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "eurostat_marital_adults_2021_v147.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "eurostat_profile_evidence_v116.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "eurostat_transport_v1508.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "fonti_nazionali_populiv.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "import_report_v051.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "indicator_registry.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "inps_main_positions_v115.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "istat_bes_transport_2024_v138.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "joint_profiles.sqlite",
+      "conversation_status": "catalogued_not_end_to_end_verified",
+      "tables": {
+        "joint_answers": [
+          "geo_name",
+          "mask",
+          "query_key",
+          "weight_match",
+          "weight_base",
+          "n_match",
+          "n_base"
+        ],
+        "metadata": [
+          "dataset_id",
+          "survey_year",
+          "source_url",
+          "population_definition",
+          "geography_level",
+          "methodology",
+          "weight_definition",
+          "rows_sample",
+          "source_sha256"
+        ]
+      }
+    },
+    {
+      "module": "POPULIV",
+      "file": "mef_age_published_2024_v138.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "mef_income_brackets_v115.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "mef_public_v111.sqlite",
+      "conversation_status": "catalogued_not_end_to_end_verified",
+      "tables": {
+        "raw_public_aggregate": [
+          "source_id",
+          "ordinal",
+          "cells_json"
+        ],
+        "sources": [
+          "id",
+          "year",
+          "population",
+          "sha256",
+          "source_url",
+          "fields_json",
+          "row_count",
+          "publication_state"
+        ]
+      }
+    },
+    {
+      "module": "POPULIV",
+      "file": "mur_graduate_groups_v112.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "official_full.sqlite",
+      "conversation_status": "catalogued_not_end_to_end_verified",
+      "tables": {
+        "bes": [
+          "indicator_id",
+          "indicator_name",
+          "topic",
+          "year",
+          "geo_level",
+          "geo_code",
+          "geo_name",
+          "value",
+          "unit",
+          "source_dataset",
+          "source_sha256"
+        ],
+        "bes_series": [
+          "indicator_id",
+          "indicator_name",
+          "domain",
+          "year",
+          "territory",
+          "sex",
+          "value",
+          "unit",
+          "source"
+        ],
+        "imports": [
+          "dataset_id",
+          "source_url",
+          "source_year",
+          "sha256",
+          "imported_at",
+          "rows",
+          "status",
+          "notes"
+        ],
+        "pop_bands": [
+          "year",
+          "municipality_code",
+          "region_code",
+          "municipality_name",
+          "age_from",
+          "sex",
+          "people"
+        ],
+        "pop_counts": [
+          "year",
+          "geo_level",
+          "geo_code",
+          "geo_name",
+          "age",
+          "sex",
+          "people",
+          "source_dataset",
+          "source_sha256"
+        ],
+        "rcs_by_country": [
+          "year",
+          "kind",
+          "municipality_code",
+          "country_code",
+          "country_name",
+          "sex",
+          "people"
+        ],
+        "strasa_age": [
+          "year",
+          "municipality_code",
+          "age",
+          "sex",
+          "people"
+        ]
+      }
+    },
+    {
+      "module": "POPULIV",
+      "file": "official_indicators.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "populiv_engine_sources_v110.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "rcfl_public_quarters_v115.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "POPULIV",
+      "file": "source_catalog_v127.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PROXIMA",
+      "file": "indicator_catalog.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PROXIMA",
+      "file": "proxima_culture_green_230.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PROXIMA",
+      "file": "proxima_roma.sqlite",
+      "conversation_status": "catalogued_not_end_to_end_verified",
+      "tables": {
+        "grid_cells": [
+          "id",
+          "year",
+          "source",
+          "polygon_json",
+          "min_lat",
+          "max_lat",
+          "min_lon",
+          "max_lon",
+          "population",
+          "male",
+          "female",
+          "age_0_14",
+          "age_15_64",
+          "age_65_plus",
+          "employed_residents",
+          "avg_age",
+          "households",
+          "graduates",
+          "dwellings",
+          "occupied_dwellings",
+          "vacant_dwellings",
+          "single_households",
+          "employed_15_64",
+          "foreign_residents",
+          "foreign_male",
+          "foreign_female",
+          "foreign_eu",
+          "foreign_extra_eu",
+          "foreign_0_14"
+        ],
+        "historical_2021": [
+          "id",
+          "year",
+          "source",
+          "polygon_json",
+          "min_lat",
+          "max_lat",
+          "min_lon",
+          "max_lon",
+          "population",
+          "male",
+          "female",
+          "age_0_14",
+          "age_15_64",
+          "age_65_plus",
+          "employed_residents",
+          "avg_age",
+          "households",
+          "graduates",
+          "dwellings",
+          "occupied_dwellings",
+          "vacant_dwellings",
+          "single_households",
+          "employed_15_64",
+          "foreign_residents",
+          "foreign_male",
+          "foreign_female",
+          "foreign_eu",
+          "foreign_extra_eu",
+          "foreign_0_14"
+        ],
+        "metadata": [
+          "key",
+          "value"
+        ],
+        "metric_methods": [
+          "id",
+          "source_fields",
+          "formula",
+          "provenance"
+        ],
+        "original_2021": [
+          "id",
+          "procom",
+          "coded_values_zlib"
+        ],
+        "original_2023": [
+          "id",
+          "procom",
+          "coded_values_zlib"
+        ],
+        "service_imports": [
+          "kind",
+          "source",
+          "year",
+          "official_url",
+          "scope",
+          "declared_complete"
+        ],
+        "source_covers": [
+          "key",
+          "value"
+        ],
+        "verified_services": [
+          "kind",
+          "source_id",
+          "name",
+          "address",
+          "city",
+          "postcode",
+          "source",
+          "year",
+          "latitude",
+          "longitude",
+          "matched_address",
+          "provider",
+          "evidence",
+          "verification",
+          "verification_note"
+        ]
+      }
+    },
+    {
+      "module": "PROXIMA",
+      "file": "regional_downloads.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PRAEVOL",
+      "file": "data/praevol_previsioni.sqlite",
+      "conversation_status": "catalogued_not_end_to_end_verified",
+      "tables": {
+        "component": [
+          "geo",
+          "year",
+          "pop_start",
+          "births",
+          "deaths",
+          "from_abroad",
+          "from_other_regions",
+          "from_same_region",
+          "to_abroad",
+          "to_other_regions",
+          "to_same_region",
+          "pop_end"
+        ],
+        "experimental_quality": [
+          "province",
+          "year",
+          "band",
+          "sex",
+          "residual",
+          "weight_sum",
+          "assigned",
+          "status"
+        ],
+        "family": [
+          "geo",
+          "year",
+          "topic",
+          "metric",
+          "value"
+        ],
+        "forecast": [
+          "geo",
+          "year",
+          "band",
+          "male",
+          "female",
+          "kind"
+        ],
+        "geography": [
+          "geo",
+          "level",
+          "name",
+          "province",
+          "region"
+        ],
+        "indicator": [
+          "geo",
+          "year",
+          "avg_age",
+          "pct_0_14",
+          "pct_15_64",
+          "pct_65_plus",
+          "kind"
+        ],
+        "metadata": [
+          "key",
+          "value"
+        ],
+        "nursery_istat": [
+          "geo",
+          "year",
+          "authorized_places",
+          "source_file"
+        ],
+        "observed": [
+          "geo",
+          "year",
+          "band",
+          "male",
+          "female"
+        ],
+        "ppr_metrics": [
+          "geo",
+          "year",
+          "category",
+          "metric",
+          "p5",
+          "median",
+          "p95"
+        ],
+        "praevol_engine_metadata": [
+          "key",
+          "value"
+        ],
+        "praevol_experimental_components": [
+          "geo",
+          "year",
+          "births_est",
+          "deaths_est",
+          "method"
+        ],
+        "provenance": [
+          "filename",
+          "sha256",
+          "notes"
+        ],
+        "province_coverage": [
+          "province",
+          "official_municipalities",
+          "experimental_municipalities",
+          "experimental_status"
+        ],
+        "rate": [
+          "geo",
+          "year",
+          "birth_rate",
+          "death_rate",
+          "net_migration_rate",
+          "total_growth_rate"
+        ],
+        "regional_bounds": [
+          "geo",
+          "year",
+          "sex",
+          "lower90",
+          "median",
+          "upper90"
+        ],
+        "school_site": [
+          "site_code",
+          "geo",
+          "ownership",
+          "year",
+          "name",
+          "school_level",
+          "category",
+          "address",
+          "postcode",
+          "source",
+          "sede_scolastica"
+        ],
+        "service_indicator": [
+          "geo",
+          "metric",
+          "reference",
+          "value",
+          "unit",
+          "description",
+          "source",
+          "url",
+          "coverage"
+        ],
+        "service_offer": [
+          "geo",
+          "metric",
+          "reference",
+          "value",
+          "qualifier",
+          "source",
+          "url",
+          "coverage"
+        ],
+        "services_import_source": [
+          "filename",
+          "sha256",
+          "imported_utc",
+          "notes"
+        ],
+        "social_istat_anziani": [
+          "geo",
+          "year",
+          "service",
+          "data_type",
+          "provider",
+          "value",
+          "obs_status"
+        ]
+      }
+    },
+    {
+      "module": "PRAEVOL",
+      "file": "web/italy_outline.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PULSE",
+      "file": "automatic_features.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PULSE",
+      "file": "news_articles.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PULSE",
+      "file": "news_index.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PULSE",
+      "file": "observer_articles.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PULSE",
+      "file": "observer_sources.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PULSE",
+      "file": "pulse_daily_news_qa.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PULSE",
+      "file": "pulse_event_places.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PULSE",
+      "file": "pulse_events.tsv",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PULSE",
+      "file": "pulse_events_1.tsv",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PULSE",
+      "file": "pulse_events_2.tsv",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PULSE",
+      "file": "pulse_events_3.tsv",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PULSE",
+      "file": "pulse_events_4.tsv",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PULSE",
+      "file": "pulse_events_5.tsv",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PULSE",
+      "file": "pulse_events_bes.tsv",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PULSE",
+      "file": "pulse_events_noi.tsv",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PULSE",
+      "file": "pulse_manifest.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PULSE",
+      "file": "pulse_observations.tsv",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PULSE",
+      "file": "pulse_observations_manifest.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PULSE",
+      "file": "pulse_photo_credits.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PULSE",
+      "file": "pulse_photo_province_map.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PULSE",
+      "file": "pulse_provinces_map.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PULSE",
+      "file": "pulse_regions_map.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PULSE",
+      "file": "source_logo_provenance.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PULSE",
+      "file": "sources_catalog.json",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PULSE",
+      "file": "territories.tsv",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    },
+    {
+      "module": "PULSE",
+      "file": "territory_stats.tsv",
+      "conversation_status": "catalogued_not_end_to_end_verified"
+    }
+  ]
+}
