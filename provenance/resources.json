@@ -1,0 +1,95 @@
+{
+  "policy": "No redistribution before exact dataset/model license and attribution review; no credentials in public artifacts.",
+  "resources": [
+    {
+      "id": "istat",
+      "url": "https://www.istat.it/classificazioni-e-strumenti/web-services-sdmx/",
+      "status": "sdmx_candidate",
+      "license_review": "pending_exact_snapshot"
+    },
+    {
+      "id": "eurostat",
+      "url": "https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-introduction",
+      "status": "existing_adapter",
+      "license_review": "pending_exact_snapshot"
+    },
+    {
+      "id": "worldbank",
+      "url": "https://data.worldbank.org/",
+      "status": "existing_adapter",
+      "license_review": "pending_exact_snapshot"
+    },
+    {
+      "id": "oecd",
+      "url": "https://www.oecd.org/en/data/insights/data-explainers/2024/09/api.html",
+      "status": "sdmx_candidate",
+      "license_review": "pending_exact_snapshot"
+    },
+    {
+      "id": "un_wpp",
+      "url": "https://population.un.org/wpp",
+      "status": "download_review_pending",
+      "license_review": "pending_exact_snapshot"
+    },
+    {
+      "id": "un_population",
+      "url": "https://population.un.org/dataportalapi/index.html",
+      "status": "api_candidate",
+      "license_review": "pending_exact_snapshot"
+    },
+    {
+      "id": "who",
+      "url": "https://www.who.int/data/gho/info/gho-odata-api",
+      "status": "api_candidate",
+      "license_review": "pending_exact_snapshot"
+    },
+    {
+      "id": "undata",
+      "url": "https://data.un.org/Host.aspx?Content=API",
+      "status": "legacy_soap_pending",
+      "license_review": "pending_exact_snapshot"
+    },
+    {
+      "id": "unsd_sdg",
+      "url": "https://unstats.un.org/SDGAPI/swagger/",
+      "status": "api_candidate",
+      "license_review": "pending_exact_snapshot"
+    },
+    {
+      "id": "datacommons",
+      "url": "https://docs.datacommons.org/api/rest/v2/",
+      "status": "disabled_key_required",
+      "license_review": "pending_exact_snapshot"
+    },
+    {
+      "id": "e5",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-small",
+      "status": "local_weights_pending",
+      "license_review": "pending_exact_snapshot"
+    },
+    {
+      "id": "eurovoc",
+      "url": "https://data.europa.eu/data/datasets/eurovoc",
+      "status": "local_importer",
+      "license_review": "pending_exact_snapshot"
+    },
+    {
+      "id": "wordnet",
+      "url": "https://github.com/omwn/omw-data",
+      "status": "existing_importer",
+      "license_review": "pending_exact_snapshot"
+    },
+    {
+      "id": "fts5",
+      "url": "https://www.sqlite.org/fts5.html",
+      "status": "python_reference",
+      "license_review": "pending_exact_snapshot"
+    },
+    {
+      "id": "litert_gemma",
+      "url": "https://developers.google.com/edge/litert-lm/overview",
+      "status": "android_integration_pending",
+      "license_review": "pending_exact_snapshot"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "status": "candidate_registry",
+  "adapters": [
+    "connectors/eurostat.py",
+    "connectors/worldbank.py",
+    "connectors/public.py"
+  ],
+  "policy": "Raw candidate responses must be normalized with source, dataset, geography, period, unit, universe, dimensions and flags before publication."
+}

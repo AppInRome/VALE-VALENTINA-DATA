@@ -1,0 +1,19 @@
+name: BES retrieval benchmark
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 benchmarks/run_retrieval.py > retrieval-report.json
+      - run: python3 -c "import json; d=json.load(open('retrieval-report.json')); print({k:v for k,v in d.items() if k!='failures'})"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: retrieval-report
+          path: retrieval-report.json
+          retention-days: 7
